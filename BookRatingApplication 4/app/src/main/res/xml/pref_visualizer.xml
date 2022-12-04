@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:id="@+id/check_theme"
+        android:defaultValue="false"
+        android:key="change_theme"
+        android:summaryOff="Light mode"
+        android:summaryOn="Dark mode"
+        android:title="Change display mode" />
+
+</PreferenceScreen>
